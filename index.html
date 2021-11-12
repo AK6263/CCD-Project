@@ -9,91 +9,9 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <title>CCD</title>
-  <style>
-    .dropdown:hover>.dropdown-menu {
-      display: block;
-      transition: all 0.5s ease-in-out;
-    }
-
-    @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
-
-    .blog-home2 {
-      font-family: "Montserrat", sans-serif;
-      color: #8d97ad;
-      font-weight: 300;
-    }
-
-    .blog-home2 h1,
-    .blog-home2 h2,
-    .blog-home2 h3,
-    .blog-home2 h4,
-    .blog-home2 h5,
-    .blog-home2 h6 {
-      color: #3e4555;
-    }
-
-    .blog-home2 .font-weight-medium {
-      font-weight: 500;
-    }
-
-    .blog-home2 .bg-light {
-      background-color: #f4f8fa !important;
-    }
-
-    .blog-home2 .subtitle {
-      color: #8d97ad;
-      line-height: 24px;
-    }
-
-    .blog-home2 .text-themecolor {
-      color: #316ce8;
-    }
-
-    .blog-home2 h5 {
-      line-height: 22px;
-      font-size: 18px;
-    }
-
-    .blog-home2 a.link {
-      color: #3e4555;
-    }
-
-    .blog-home2 a.link:hover {
-      color: #316ce8;
-    }
-
-    .blog-home2 .on-hover {
-      -webkit-transition: 0.2s ease-in;
-      -o-transition: 0.2s ease-in;
-      transition: 0.2s ease-in;
-    }
-
-    .blog-home2 .on-hover:hover {
-      -webkit-transform: translateY(-10px);
-      -ms-transform: translateY(-10px);
-      transform: translateY(-10px);
-    }
-
-    .blog-home2 .date-pos {
-      right: 10px;
-      top: 10px;
-    }
-
-    .blog-home2 .date-pos span {
-      font-size: 30px;
-      line-height: 30px;
-    }
-
-    .blog-home2 .bg-info-gradiant {
-      background: #188ef4;
-      background: -webkit-linear-gradient(legacy-direction(to right), #188ef4 0%, #316ce8 100%);
-      background: -webkit-gradient(linear, left top, right top, from(#188ef4), to(#316ce8));
-      background: -webkit-linear-gradient(left, #188ef4 0%, #316ce8 100%);
-      background: -o-linear-gradient(left, #188ef4 0%, #316ce8 100%);
-      background: linear-gradient(to right, #188ef4 0%, #316ce8 100%);
-    }
-  </style>
+  
+  <link href="styles/home.css">
+  <title>Centre for Career Development IISER Kolkata</title>
 </head>
 
 <body>
@@ -101,10 +19,11 @@
     <nav class="navbar navbar-light bg-light d-flex justify-content-evenly">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="https://www.iiserkol.ac.in/static/ss13ms110/images/IISER-K_Logo.png" alt="" width="80" height="80"
-            class="d-inline-block align-text-top">
-          <span class="navbar-text fs-2 fs-bold d-inline-block">
-            <h2> Center for Career Development</h2>
+          <img src="static/images/IISER-K_Logo.png" alt="logo" width="105" height="105"
+            class="d-inline-block align-text-top align-text-left">
+          <span class="navbar-text fs-2 fs-bold d-inline-block align-text-top">
+            <h1> Center for Career Development</h1>
+            <h3>Indian Institute of Science Education and Research Kolkata</h3>
           </span>
         </a>
       </div>
@@ -112,16 +31,19 @@
   </header>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top sticky-offset">
     <div class="container-fluid">
+      <!--
       <a class="navbar-brand" href="#">CCD</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
+      </button> -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!--
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="/">Home</a>
           </li>
+          -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
@@ -172,16 +94,18 @@
               Contact Us
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Reach IISER K</a></li>
+              <li><a class="dropdown-item" href="#">Reach IISER Kolkata</a></li>
               <li><a class="dropdown-item" href="#">Contacts</a></li>
             </ul>
           </li>
 
         </ul>
+        <!--
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
+        -->
       </div>
     </div>
   </nav>
